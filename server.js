@@ -1,14 +1,12 @@
 const express = require("express");
-const path = require("path");
 const app = express();
+const path = require("path");
 
-// Define the path to your static files (the 'public' directory)
-const staticPath = path.join(__dirname, "public");
+// Serve static files (your frontend) from a directory named 'public'
+app.use(express.static(path.join(__dirname, "public")));
 
-// Serve the static files (index.html in this case)
-app.use(express.static(staticPath));
+// Define your API routes or any other backend logic here
 
-// Start the server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
