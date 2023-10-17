@@ -1,0 +1,116 @@
+/*top*/
+
+.header {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+}
+
+/*logo*/
+
+.logo-con {
+  height: 90%;
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5rem;
+}
+
+.logo-img {
+  width: 60px;
+}
+
+.logo-txt {
+  font-size: 1.8rem;
+  margin-left: 1.5rem;
+}
+
+/*nav*/
+
+.nav-con {
+  height: 90%;
+  width: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 50rem;
+}
+
+a {
+  font-size: 1.6rem;
+}
+
+.process-link {
+  color: white;
+  padding: 0.8rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  border-radius: 1.6rem;
+  background-color: #222222;
+}
+
+/*main*/
+
+.main-con {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.left-con {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  height: 49%;
+  width: 46%;
+  border-radius: 20px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.right-con {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: #d0b8a8;
+  padding: 3rem;
+  height: 49%;
+  width: 25%;
+  border-radius: 20px;
+}
+
+.mySlides {
+  height: 100%;
+  width: 100%;
+}
+
+.process-img {
+  margin: auto;
+  height: 14.5rem;
+}
+
+.process-txt {
+  text-align: center;
+  margin: auto;
+  margin-top: 2rem;
+  font-family: rebeqa;
+  font-size: 6rem;
+  font-weight: 700;
+  color: #61391c;
+}
+
+/*animation*/
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
