@@ -1,3 +1,9 @@
+body {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
 /*top*/
 
 .header {
@@ -19,11 +25,11 @@
 }
 
 .logo-img {
-  width: 60px;
+  width: 50px;
 }
 
 .logo-txt {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-left: 1.5rem;
 }
 
@@ -35,11 +41,11 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-left: 50rem;
+  margin-left: 35vw;
 }
 
 a {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
 }
 
 .beans-link {
@@ -62,8 +68,8 @@ a {
 }
 
 .card {
-  width: 18%;
-  height: 60%;
+  width: 17%;
+  height: 58%;
   padding-top: 5rem;
   padding-bottom: 5rem;
   border-radius: 2rem;
@@ -81,7 +87,7 @@ a {
 }
 
 .coffee-bean-img {
-  height: 8rem;
+  height: 6rem;
 }
 
 .title {
@@ -102,10 +108,10 @@ a {
 
 .info1 {
   color: #61391c;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .info2 {
   color: #61391c;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
